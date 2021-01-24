@@ -51,25 +51,6 @@ app.get('/names/date/:asc', async (req, res) => {
   }
 });
 
-//GET by Id(date)
-app.get('/names/date/:asc', async (req, res) => {
-  try {
-    const ascDsc = req.params.asc;
-    const query =
-      ascDsc === 'ASC'
-        ? 'SELECT * FROM names ORDER BY u_id ASC'
-        : 'SELECT * FROM names ORDER BY u_id DESC';
-    const results = await pool.query(query);
-    res.status(200).json({
-      status: 'success',
-      results: results.rows.length,
-      data: results.rows,
-    });
-  } catch (err) {
-    console.log(err.message);
-  }
-});
-
 //GET by Alphabeticaly
 app.get('/names/alpha/:asc', async (req, res) => {
   try {
