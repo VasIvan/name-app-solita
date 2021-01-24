@@ -1,3 +1,7 @@
+![](https://j.gifs.com/vlnKM0.gif)
+
+![](https://j.gifs.com/XLZMV8.gif)
+
 # Full stack Name app (NodeJS/Express + PostgreSQL + React)
 
 ## dev-academy-2021 exercise - Name Application
@@ -10,8 +14,6 @@
 - Return the amount of the name given as a parameter :heavy_check_mark:
 
 - Link to the requirements from Solita: https://github.com/solita/dev-academy-2021
-
-![](https://j.gifs.com/vlnKM0.gif)
 
 # Link to the app(hosted at Heroku):
 
@@ -30,7 +32,7 @@ Styling:
 
 # User Manual / Functionality
 
-# NB! If you clone the app on the local computer you need to make DB migration (database.sql file), also you need to install the node modules and then u ca run the app!
+# NB! If you clone the app on the local computer you need to make DB migration (database.sql file), also you need to install the node modules and then you can run the app!
 
 ## If you like to try the working app you can test it from here: https://solita-academy.herokuapp.com/
 
