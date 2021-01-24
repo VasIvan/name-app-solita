@@ -26,7 +26,7 @@ const NameSort = (props) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/names/${page}/${ascDsc ? 'ASC' : 'DESC'}`
+          `/names/${page}/${ascDsc ? 'ASC' : 'DESC'}`
         );
         setAllNames(response.data.data);
         setTotalNames(response.data.results);

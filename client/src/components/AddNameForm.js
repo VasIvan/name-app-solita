@@ -16,7 +16,7 @@ const AddNameForm = ({ handleAddRefresh }) => {
 
   const onSubmit = async (data, e) => {
     try {
-      const response = await axios.post('http://localhost:5000/names', data);
+      const response = await axios.post('/names', data);
       console.log(response);
       handleAddRefresh();
       e.target.reset();

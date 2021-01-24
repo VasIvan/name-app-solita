@@ -20,7 +20,7 @@ const NamePaper = (props) => {
 
   const handleDelete = async (id) => {
     try {
-      const response = await axios.delete(`http://localhost:5000/names/${id}`);
+      const response = await axios.delete(`/names/${id}`);
       handleDeleteRefresh();
     } catch (error) {
       console.log(error.message);
