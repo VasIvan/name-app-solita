@@ -30,6 +30,10 @@ Styling:
 
 # User Manual / Functionality
 
+# NB! If you clone the app on the local computer you need to make DB migration (database.sql file), also you need to install the node modules and then u ca run the app!
+
+## If you like to try the working app you can test it from here: https://solita-academy.herokuapp.com/
+
 ### How to use ?
 
 ![image](https://user-images.githubusercontent.com/55087458/105629081-97f56f00-5e49-11eb-9a1f-3f7426b726dc.png)
