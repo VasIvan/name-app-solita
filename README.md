@@ -1,4 +1,4 @@
-![](https://gifs.com/embed/solita-app-vlnKM0)
+![](https://gifs.com/gif/solita-app-vlnKM0)
 
 # Full stack Name app (NodeJS/Express + PostgreSQL + React)
 
